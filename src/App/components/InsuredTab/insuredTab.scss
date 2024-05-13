@@ -1,0 +1,40 @@
+.insured-tab {
+	padding-bottom: 18px;
+
+	&__search {
+		display: grid;
+		grid-template-columns: 1.5fr 1fr 1.5fr 1.5fr 1fr 1fr 1.5fr 1.5fr 0.5fr;
+		column-gap: 8px;
+		padding: 16px 20px;
+	}
+}
+
+.insured-search-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+
+	&__icon {
+		width: 25px;
+		height: 25px;
+		color: transparent;
+
+		& circle,
+		& path {
+			stroke: white;
+		}
+	}
+
+	&__title {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 13px;
+		line-height: 16px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}

@@ -1,0 +1,26 @@
+.sides-tab {
+	padding-bottom: 18px;
+
+	&__header {
+		background: #f9f9fa;
+		border-bottom: 2px solid var(--medpult-bg-color);
+		height: 52px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 3fr;
+		align-items: center;
+
+		column-gap: 32px;
+		padding: 0px 20px;
+	}
+
+	&__header-item {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 130%;
+		letter-spacing: 0.0025em;
+		text-transform: uppercase;
+		color: #959599;
+	}
+}

@@ -1,0 +1,50 @@
+.sides-tab-row {
+	border-bottom: 2px solid var(--medpult-bg-color);
+	height: 52px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 3fr;
+	align-items: center;
+	column-gap: 32px;
+	padding: 0px 20px;
+	cursor: pointer;
+
+	&_selected {
+		background: #f9f9fa;
+	}
+
+	&__buttons {
+		display: flex;
+		flex-direction: row;
+		gap: 32px;
+	}
+
+	&__type {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 130%;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.0025em;
+		color: #2d2d2f;
+	}
+
+	&__contractor {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 130%;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.0025em;
+		color: #4588e5;
+		width: fit-content;
+
+		&:hover {
+			border-bottom: 2px solid #4588e5;
+			margin-top: 2px;
+		}
+	}
+}
